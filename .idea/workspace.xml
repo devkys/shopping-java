@@ -6,7 +6,13 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0fd1ce8-8a2e-4448-9739-683e4c249894" name="Changes" comment="" />
+    <list default="true" id="b0fd1ce8-8a2e-4448-9739-683e4c249894" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/79fa2233-94f9-4441-91ea-eac7d69413eb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/79fa2233-94f9-4441-91ea-eac7d69413eb.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/basket.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/basket.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bbs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bbs.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/member.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/member.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +27,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -32,28 +41,29 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HiaNRkTZxrM8DXgC8esIomICH6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/kyeongseo/IdeaProjects/web05/web/img",
-    "list.type.of.created.stylesheet": "CSS",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "SQL Dialects"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kyeongseo/IdeaProjects/web05/web/img&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;SQL Dialects&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/img" />
@@ -160,12 +170,24 @@
       <option name="presentableId" value="Default" />
       <updated>1668770318791</updated>
       <workItem from="1668770320003" duration="1125000" />
-      <workItem from="1668771451606" duration="5566000" />
+      <workItem from="1668771451606" duration="6505000" />
+      <workItem from="1668783947537" duration="7169000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

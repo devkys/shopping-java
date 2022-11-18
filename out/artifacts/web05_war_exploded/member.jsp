@@ -21,7 +21,7 @@
     </div>
     <div id="center">
         <%
-            if(session.getAttribute("id") == null) {
+            if (session.getAttribute("id") == null) {
         %>
         <form action="login.jsp">
             <table>
@@ -42,7 +42,7 @@
         </form>
         <hr color="blue">
         <%
-            } else {
+        } else {
         %>
         <a href="logout.jsp">
             <button>로그아웃</button>
@@ -52,7 +52,32 @@
         %>
         <span>중요!!!</span>
         <span>회원 가입 정보 입력</span>
-
+        <br><br>
+        <form action="member2.jsp">
+            <table>
+                <tr>
+                    <td>아이디</td>
+                    <td><input type="text" name="id"></td>
+                </tr>
+                <tr>
+                    <td>패스워드</td>
+                    <td><input type="text" name="pw"></td>
+                </tr>
+                <tr>
+                    <td>이름</td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td>전화번호</td>
+                    <td><input type="text" name="tel"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit">회원가입처리</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
 
 
     </div>
