@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="school@localhost">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.43">
+    <root id="1">
+      <DefaultCasing>mixed/mixed</DefaultCasing>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
+      <ServerVersion>8.0.29</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="app"/>
+    <schema id="3" parent="1" name="book"/>
+    <schema id="4" parent="1" name="ex"/>
+    <schema id="5" parent="1" name="information_schema"/>
+    <schema id="6" parent="1" name="miniter"/>
+    <schema id="7" parent="1" name="movie"/>
+    <schema id="8" parent="1" name="mysql"/>
+    <schema id="9" parent="1" name="pagination"/>
+    <schema id="10" parent="1" name="performance_schema"/>
+    <schema id="11" parent="1" name="practice"/>
+    <schema id="12" parent="1" name="school">
+      <Current>1</Current>
+    </schema>
+    <schema id="13" parent="1" name="sys"/>
+    <schema id="14" parent="1" name="학생수강성적"/>
+    <table id="15" parent="12" name="BONUS">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="16" parent="12" name="DEPT">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="17" parent="12" name="EMP">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="18" parent="12" name="PRODUCT">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="19" parent="12" name="SALGRADE">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="20" parent="12" name="bbs">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="21" parent="12" name="class">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="22" parent="12" name="company">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="23" parent="12" name="department">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="24" parent="12" name="health">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="25" parent="12" name="member">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="26" parent="12" name="member2">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="27" parent="12" name="member3">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="28" parent="12" name="person">
+      <Engine>MyISAM</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="29" parent="12" name="professor">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="30" parent="12" name="reply">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="31" parent="12" name="student">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="32" parent="12" name="studentscore">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <column id="33" parent="15" name="ENAME">
+      <DataType>varchar(10)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="34" parent="15" name="JOB">
+      <DataType>varchar(9)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="35" parent="15" name="SAL">
+      <DataType>int|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="36" parent="15" name="COMM">
+      <DataType>int|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="37" parent="16" name="DEPTNO">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="38" parent="16" name="DNAME">
+      <DataType>varchar(14)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="39" parent="16" name="LOC">
+      <DataType>varchar(13)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <index id="40" parent="16" name="PK_DEPT">
+      <ColNames>DEPTNO</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="41" parent="16" name="PRIMARY">
+      <ColNames>DEPTNO</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="42" parent="16" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="43" parent="16" name="PK_DEPT">
+      <UnderlyingIndexName>PK_DEPT</UnderlyingIndexName>
+    </key>
+    <column id="44" parent="17" name="EMPNO">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="45" parent="17" name="ENAME">
+      <DataType>varchar(10)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="46" parent="17" name="JOB">
+      <DataType>varchar(9)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="47" parent="17" name="MGR">
+      <DataType>int|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="48" parent="17" name="HIREDATE">
+      <DataType>date|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="49" parent="17" name="SAL">
+      <DataType>int|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="50" parent="17" name="COMM">
+      <DataType>decimal(7,2 digit)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="51" parent="17" name="DEPTNO">
+      <DataType>int|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <foreign-key id="52" parent="17" name="FK_DEPTNO">
+      <ColNames>DEPTNO</ColNames>
+      <RefColNames>DEPTNO</RefColNames>
+      <RefTableName>DEPT</RefTableName>
+    </foreign-key>
+    <index id="53" parent="17" name="PK_EMP">
+      <ColNames>EMPNO</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="54" parent="17" name="PRIMARY">
+      <ColNames>EMPNO</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="55" parent="17" name="FK_DEPTNO">
+      <ColNames>DEPTNO</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="56" parent="17" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="57" parent="17" name="PK_EMP">
+      <UnderlyingIndexName>PK_EMP</UnderlyingIndexName>
+    </key>
+    <column id="58" parent="18" name="ID">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="59" parent="18" name="NAME">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="60" parent="18" name="CONTENT">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="61" parent="18" name="PRICE">
+      <DataType>int|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="62" parent="18" name="COMPANY">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="63" parent="18" name="IMG">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <index id="64" parent="18" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="65" parent="18" name="PRODUCT_FK">
+      <ColNames>COMPANY</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="66" parent="18" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="67" parent="19" name="GRADE">
+      <DataType>int|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="68" parent="19" name="LOSAL">
+      <DataType>int|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="69" parent="19" name="HISAL">
+      <DataType>int|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="70" parent="20" name="no">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="71" parent="20" name="title">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="72" parent="20" name="content">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="73" parent="20" name="writer">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <foreign-key id="74" parent="20" name="bbs_FK">
+      <ColNames>writer</ColNames>
+      <RefColNames>id</RefColNames>
+      <RefTableName>member</RefTableName>
+    </foreign-key>
+    <index id="75" parent="20" name="PRIMARY">
+      <ColNames>no</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="76" parent="20" name="bbs_FK">
+      <ColNames>writer</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="77" parent="20" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="78" parent="21" name="classname">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="79" parent="21" name="roomname">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <index id="80" parent="21" name="PRIMARY">
+      <ColNames>classname</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="81" parent="21" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="82" parent="22" name="id">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="83" parent="22" name="name">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="84" parent="22" name="addr">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="85" parent="22" name="tel">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <index id="86" parent="22" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="87" parent="22" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="88" parent="23" name="depart">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="89" parent="23" name="office">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <index id="90" parent="23" name="PRIMARY">
+      <ColNames>depart</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="91" parent="23" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="92" parent="24" name="id">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="93" parent="24" name="name">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="94" parent="24" name="company">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="95" parent="25" name="id">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="96" parent="25" name="pw">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="97" parent="25" name="name">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="98" parent="25" name="tel">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <index id="99" parent="25" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="100" parent="25" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="101" parent="26" name="id">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="102" parent="26" name="pw">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="103" parent="26" name="name">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="104" parent="26" name="tel">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <index id="105" parent="26" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="106" parent="26" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="107" parent="27" name="id">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="108" parent="27" name="pw">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="109" parent="27" name="name">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="110" parent="27" name="tel">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="111" parent="27" name="post">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="112" parent="27" name="home">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <index id="113" parent="27" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="114" parent="27" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="115" parent="28" name="id">
+      <DataType>varchar(40)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="116" parent="28" name="email">
+      <DataType>varchar(50)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="117" parent="28" name="car">
+      <DataType>varchar(50)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="118" parent="29" name="id">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="119" parent="29" name="name">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="120" parent="29" name="tel">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="121" parent="29" name="deptid">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="122" parent="29" name="addr">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="123" parent="29" name="roomno">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="124" parent="30" name="id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="125" parent="30" name="oriid">
+      <DataType>int|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="126" parent="30" name="content">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="127" parent="30" name="writer">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <foreign-key id="128" parent="30" name="reply_FK">
+      <ColNames>oriid</ColNames>
+      <RefColNames>no</RefColNames>
+      <RefTableName>bbs</RefTableName>
+    </foreign-key>
+    <foreign-key id="129" parent="30" name="reply_FK_1">
+      <ColNames>writer</ColNames>
+      <RefColNames>id</RefColNames>
+      <RefTableName>member</RefTableName>
+    </foreign-key>
+    <index id="130" parent="30" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="131" parent="30" name="reply_FK">
+      <ColNames>oriid</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="132" parent="30" name="reply_FK_1">
+      <ColNames>writer</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="133" parent="30" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="134" parent="31" name="id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="135" parent="31" name="name">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="136" parent="31" name="addr">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="137" parent="31" name="depart">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <foreign-key id="138" parent="31" name="student_FK">
+      <ColNames>depart</ColNames>
+      <RefColNames>depart</RefColNames>
+      <RefTableName>department</RefTableName>
+    </foreign-key>
+    <index id="139" parent="31" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="140" parent="31" name="student_FK">
+      <ColNames>depart</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="141" parent="31" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="142" parent="32" name="studentid">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="143" parent="32" name="classname">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="144" parent="32" name="score">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <index id="145" parent="32" name="PRIMARY">
+      <ColNames>studentid
+classname</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="146" parent="32" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>
