@@ -7,12 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0fd1ce8-8a2e-4448-9739-683e4c249894" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/79fa2233-94f9-4441-91ea-eac7d69413eb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/79fa2233-94f9-4441-91ea-eac7d69413eb.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/web05_war_exploded/basket.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web05_war_exploded/basket.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web05_war_exploded/product2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web05_war_exploded/product2.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/basket.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/basket.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/product2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/product2.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +51,7 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/kyeongseo/IdeaProjects/web05/web/img",
     "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -174,7 +172,7 @@
       <workItem from="1668771451606" duration="6505000" />
       <workItem from="1668783947537" duration="7260000" />
       <workItem from="1668848484585" duration="83000" />
-      <workItem from="1668991484955" duration="8866000" />
+      <workItem from="1668991484955" duration="12005000" />
     </task>
     <servers />
   </component>
