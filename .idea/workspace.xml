@@ -9,9 +9,10 @@
     <list default="true" id="b0fd1ce8-8a2e-4448-9739-683e4c249894" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/79fa2233-94f9-4441-91ea-eac7d69413eb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/79fa2233-94f9-4441-91ea-eac7d69413eb.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web05_war_exploded/basket.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web05_war_exploded/basket.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web05_war_exploded/product2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web05_war_exploded/product2.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/basket.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/basket.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/bbs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bbs.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/member.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/member.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/product2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/product2.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,24 +47,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kyeongseo/IdeaProjects/web05/web/img&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;SQL Dialects&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/kyeongseo/IdeaProjects/web05/web/img",
+    "list.type.of.created.stylesheet": "CSS",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.language"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/img" />
@@ -171,7 +172,9 @@
       <updated>1668770318791</updated>
       <workItem from="1668770320003" duration="1125000" />
       <workItem from="1668771451606" duration="6505000" />
-      <workItem from="1668783947537" duration="7169000" />
+      <workItem from="1668783947537" duration="7260000" />
+      <workItem from="1668848484585" duration="83000" />
+      <workItem from="1668991484955" duration="8866000" />
     </task>
     <servers />
   </component>

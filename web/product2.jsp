@@ -10,6 +10,7 @@
 <html>
 <head>
     <title>Title</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 <body>
 <div id="total">
@@ -34,6 +35,28 @@
             ProductDAO dao = new ProductDAO();
             ProductDTO dto2 = dao.one(dto);
         %>
+        <script type="text/javascript">
+            $(function () {
+                $('#basket').click(function () {
+                    $.ajax({
+                        url: "basket.jsp",
+                        data : {
+                            id: ' <%=dto2.getId()%>',
+                            price: '<%=dto2.getPrice()%> ',
+                            title: '<%=dto2.getTitle()%> '
+                        },
+                        success: function () {
+                            alert(<%=dto2.getId()%> + "번 제품이 장바구니에 추가됨");
+                            choice = confirm('장바구니 페이지로 이동하시겠습니까');
+                            if(choice) {
+                                location.href = 'basket.jsp';
+                            }
+                        }
+                    })
+                })
+            })
+
+        </script>
         <span>상품 상세정보</span>
         <hr>
         <table>
@@ -68,7 +91,7 @@
             <%--            dto2의 내용을 테이블 모양으로 보여주기--%>
             <tr>
                 <td colspan="2">
-                    <button>장바구니</button>
+                    <button id="basket">장바구니</button>
                     <button>주문하기</button>
                 </td>
             </tr>
